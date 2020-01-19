@@ -4,7 +4,7 @@
 Investigation of bikeshare data
 
 ### Description
-Describe what your project is about and what it does
+The project ivestigates bikeshare data of three different cities and uses user prompts for selective analysis.
 
 ### Files used
 Include the files used
