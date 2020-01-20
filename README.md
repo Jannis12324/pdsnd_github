@@ -1,15 +1,17 @@
 ### Date created
-Include the date you created this project and README file.
-
+19.01.2020
 ### Project Title
-Replace the Project Title
+Investigation of bikeshare data.
 
 ### Description
-Describe what your project is about and what it does
+The project investigates bikeshare data of three different cities and uses user prompts for selective analysis.
+It uses Python 3 and is opened by executing the bikeshare-2.py file in the terminal.
 
 ### Files used
-Include the files used
+bikeshare-2.py
+chicago.csv
+new_york_city.csv
+washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+The work was inspired by the udacity course "Programming for data science."
