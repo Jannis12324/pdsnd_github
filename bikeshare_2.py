@@ -27,7 +27,8 @@ def get_filters():
     while city == "":
         # catching weird errors
         try:
-            city = input('Type "C" for Chicago, "N" for New York City or "W" for Washington.\n').lower()
+            city = input('Type "C" for Chicago, "N" for New York City or "W"\
+ for Washington.\n').lower()
         except:
             print('Looks like something went wrong. Enter only a single letter please\n')
             continue
