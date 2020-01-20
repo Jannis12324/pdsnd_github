@@ -1,7 +1,8 @@
 import time
+import math
 import pandas as pd
 import numpy as np
-import math
+
 
 CITY_DATA = {'chicago': 'chicago.csv',
              'new york city': 'new_york_city.csv',
@@ -26,7 +27,8 @@ def get_filters():
     while city == "":
         # catching weird errors
         try:
-            city = input('Type "C" for Chicago, "N" for New York City or "W" for Washington.\n').lower()
+            city = input('Type "C" for Chicago, "N" for New York City or "W"\
+ for Washington.\n').lower()
         except:
             print('Looks like something went wrong. Enter only a single letter please\n')
             continue
